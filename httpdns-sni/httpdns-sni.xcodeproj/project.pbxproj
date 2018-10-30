@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2028DB3621848635006D4CBE /* BDHttpDns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2028DB3521848635006D4CBE /* BDHttpDns.framework */; };
+		2028DB3B2184865B006D4CBE /* CFHTTPSURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2028DB382184865B006D4CBE /* CFHTTPSURLProtocol.m */; };
+		2028DB3C2184865B006D4CBE /* CFHttpMessageURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2028DB392184865B006D4CBE /* CFHttpMessageURLProtocol.m */; };
+		20698BA2217F4A94001E28DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20698BA1217F4A94001E28DC /* AppDelegate.m */; };
+		20698BA5217F4A94001E28DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20698BA4217F4A94001E28DC /* ViewController.m */; };
+		20698BA8217F4A94001E28DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20698BA6217F4A94001E28DC /* Main.storyboard */; };
+		20698BAA217F4A96001E28DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20698BA9217F4A96001E28DC /* Assets.xcassets */; };
+		20698BAD217F4A96001E28DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20698BAB217F4A96001E28DC /* LaunchScreen.storyboard */; };
+		20698BB0217F4A96001E28DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20698BAF217F4A96001E28DC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2028DB3521848635006D4CBE /* BDHttpDns.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BDHttpDns.framework; path = "httpdns-sni/BDHttpDns.framework"; sourceTree = "<group>"; };
+		2028DB372184865B006D4CBE /* CFHTTPSURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFHTTPSURLProtocol.h; sourceTree = "<group>"; };
+		2028DB382184865B006D4CBE /* CFHTTPSURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFHTTPSURLProtocol.m; sourceTree = "<group>"; };
+		2028DB392184865B006D4CBE /* CFHttpMessageURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFHttpMessageURLProtocol.m; sourceTree = "<group>"; };
+		2028DB3A2184865B006D4CBE /* CFHttpMessageURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFHttpMessageURLProtocol.h; sourceTree = "<group>"; };
+		20698B9D217F4A94001E28DC /* httpdns-sni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "httpdns-sni.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20698BA0217F4A94001E28DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20698BA1217F4A94001E28DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20698BA3217F4A94001E28DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20698BA4217F4A94001E28DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20698BA7217F4A94001E28DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20698BA9217F4A96001E28DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20698BAC217F4A96001E28DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20698BAE217F4A96001E28DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20698BAF217F4A96001E28DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20698B9A217F4A94001E28DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2028DB3621848635006D4CBE /* BDHttpDns.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2028DB3421848635006D4CBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2028DB3521848635006D4CBE /* BDHttpDns.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20698B94217F4A94001E28DC = {
+			isa = PBXGroup;
+			children = (
+				20698B9F217F4A94001E28DC /* httpdns-sni */,
+				20698B9E217F4A94001E28DC /* Products */,
+				2028DB3421848635006D4CBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20698B9E217F4A94001E28DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20698B9D217F4A94001E28DC /* httpdns-sni.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20698B9F217F4A94001E28DC /* httpdns-sni */ = {
+			isa = PBXGroup;
+			children = (
+				2028DB3A2184865B006D4CBE /* CFHttpMessageURLProtocol.h */,
+				2028DB392184865B006D4CBE /* CFHttpMessageURLProtocol.m */,
+				2028DB372184865B006D4CBE /* CFHTTPSURLProtocol.h */,
+				2028DB382184865B006D4CBE /* CFHTTPSURLProtocol.m */,
+				20698BA0217F4A94001E28DC /* AppDelegate.h */,
+				20698BA1217F4A94001E28DC /* AppDelegate.m */,
+				20698BA3217F4A94001E28DC /* ViewController.h */,
+				20698BA4217F4A94001E28DC /* ViewController.m */,
+				20698BA6217F4A94001E28DC /* Main.storyboard */,
+				20698BA9217F4A96001E28DC /* Assets.xcassets */,
+				20698BAB217F4A96001E28DC /* LaunchScreen.storyboard */,
+				20698BAE217F4A96001E28DC /* Info.plist */,
+				20698BAF217F4A96001E28DC /* main.m */,
+			);
+			path = "httpdns-sni";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20698B9C217F4A94001E28DC /* httpdns-sni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20698BB3217F4A96001E28DC /* Build configuration list for PBXNativeTarget "httpdns-sni" */;
+			buildPhases = (
+				20698B99217F4A94001E28DC /* Sources */,
+				20698B9A217F4A94001E28DC /* Frameworks */,
+				20698B9B217F4A94001E28DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "httpdns-sni";
+			productName = "httpdns-sni";
+			productReference = 20698B9D217F4A94001E28DC /* httpdns-sni.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20698B95217F4A94001E28DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Csy;
+				TargetAttributes = {
+					20698B9C217F4A94001E28DC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 20698B98217F4A94001E28DC /* Build configuration list for PBXProject "httpdns-sni" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20698B94217F4A94001E28DC;
+			productRefGroup = 20698B9E217F4A94001E28DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20698B9C217F4A94001E28DC /* httpdns-sni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20698B9B217F4A94001E28DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20698BAD217F4A96001E28DC /* LaunchScreen.storyboard in Resources */,
+				20698BAA217F4A96001E28DC /* Assets.xcassets in Resources */,
+				20698BA8217F4A94001E28DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20698B99217F4A94001E28DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2028DB3C2184865B006D4CBE /* CFHttpMessageURLProtocol.m in Sources */,
+				2028DB3B2184865B006D4CBE /* CFHTTPSURLProtocol.m in Sources */,
+				20698BA5217F4A94001E28DC /* ViewController.m in Sources */,
+				20698BB0217F4A96001E28DC /* main.m in Sources */,
+				20698BA2217F4A94001E28DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20698BA6217F4A94001E28DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20698BA7217F4A94001E28DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20698BAB217F4A96001E28DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20698BAC217F4A96001E28DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20698BB1217F4A96001E28DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20698BB2217F4A96001E28DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20698BB4217F4A96001E28DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/httpdns-sni",
+				);
+				INFOPLIST_FILE = "httpdns-sni/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaolong.httpdns-sni";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20698BB5217F4A96001E28DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/httpdns-sni",
+				);
+				INFOPLIST_FILE = "httpdns-sni/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaolong.httpdns-sni";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20698B98217F4A94001E28DC /* Build configuration list for PBXProject "httpdns-sni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20698BB1217F4A96001E28DC /* Debug */,
+				20698BB2217F4A96001E28DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20698BB3217F4A96001E28DC /* Build configuration list for PBXNativeTarget "httpdns-sni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20698BB4217F4A96001E28DC /* Debug */,
+				20698BB5217F4A96001E28DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20698B95217F4A94001E28DC /* Project object */;
+}

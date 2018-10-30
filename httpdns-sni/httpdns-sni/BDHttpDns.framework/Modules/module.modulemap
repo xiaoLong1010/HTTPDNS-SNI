@@ -1,0 +1,6 @@
+framework module BDHttpDns {
+  umbrella header "BDHttpDns.h"
+
+  export *
+  module * { export * }
+}
